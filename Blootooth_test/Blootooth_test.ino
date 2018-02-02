@@ -1,4 +1,6 @@
-0000int val;
+//Bluetooth
+
+int val;
 int LED = 13;
 int time=0;
 int oldTime=0;
