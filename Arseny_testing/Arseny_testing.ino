@@ -44,7 +44,7 @@ void setup() {
 	dvig.attach(8);
 	dvig.writeMicroseconds(1500) ;
 	myservo.write(82) ;
-	
+
 	delay(1000);
 }
 
