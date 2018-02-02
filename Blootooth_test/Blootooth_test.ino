@@ -1,4 +1,4 @@
-int val;
+0000int val;
 int LED = 13;
 int time=0;
 int oldTime=0;
