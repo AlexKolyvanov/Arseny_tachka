@@ -108,7 +108,7 @@ void loop()
     }
   }
   
-  if (step == 3)
+  if (step == 4) 
   {
   	myservo.writeMicroseconds (1500); // Поворот направо 
     dvig.writeMicroseconds(1604);     // Газуем  
@@ -133,6 +133,7 @@ void loop()
     {
       step = 6;
     }	
+    
     if (step == 6 )
     {
     	dvig.writeMicroseconds(1500);
