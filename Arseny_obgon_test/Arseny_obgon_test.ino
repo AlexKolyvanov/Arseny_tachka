@@ -1,7 +1,6 @@
-//Arseny_tachka_v2.ino
+//Obgon 
 #include <Servo.h>
 #include <SharpIR.h>
-//3.12.17.ino
 SharpIR SharpIR(A0, 1080);
 
 static const byte PACKET_SIZE = 128;
