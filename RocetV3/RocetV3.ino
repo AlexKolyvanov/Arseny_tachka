@@ -350,6 +350,9 @@ void detach_sputnik()
 	if (sputnik_time - sputnik_old_time > 9000)
 	{
 	SputnikServo0.write(10); // Close door
+	SputnikServo1.write(90); // Close sputnik
+	SputnikServo2.write(90); // Close sputnik
+	SputnikServo3.write(90); // Close sputnik
 	sputnik_go_flag=0;
 	}
  	
